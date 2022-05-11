@@ -61,5 +61,18 @@ body {
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
+        
+    }
+    .container {
+        max-width: 80%;
+            
+    }
+    
+    h1 {
+        font-size: 80%;
+    }
+
+    h2 {
+        font-size: 80%;
     }
 }
