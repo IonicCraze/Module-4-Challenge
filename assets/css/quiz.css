@@ -65,6 +65,7 @@ body {
     }
     .container {
         max-width: 80%;
+        padding: .5rem;
             
     }
     
