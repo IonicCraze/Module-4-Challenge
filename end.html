@@ -14,7 +14,7 @@
             <form class="end-form">
                 <h2 id="end-text"> Enter Name</h2>
                 <input type="text" name="name" id="username" placeholder="Enter Name">
-                <button class="btn" id="save-score-btn" type="submit" onclick="saveScore(event);this.disabled=true;this.style.background='#333333'">Save </button>
+                <button class="btn" id="save-score-btn" type="submit" onclick="saveScore(event);this.disabled=true;this.style.background='#333333';document.getElementById('username').disabled = true;">Save </button>
             </form>
             <a href="quiz.html" class="btn">Try again</a>
             <a href="index.html" class="btn">Home</a>
