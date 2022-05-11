@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/quiz.css"/>
+</head>
+<body>
+    <section class="container">
+        <div class="justify-center flex-column" id="quiz" >
+            <div id="overhead">
+                <div class="overhead-item">
+                    <p id="question-number" class="overhead-prefix">
+                       
+                    </p>
+                    <h1 id="progress-text">1</h1>
+
+
+                </div>
+                <div class="overhead-item">
+                    <h2 class="timer-count">
+                        Time:
+                    </h2>
+                    <h2 id="time-left">
+                        0
+                    </h2>
+                </div>
+                <div class="overhead-item">
+                    <h2 class="score">
+                        Score:
+                    </h2>
+                    <h2 id="score-text">
+                        0
+                    </h2>
+                </div>
+            </div>
+            <h1 id="question">What is the answer?</h1>
+            <div class="choice-container">
+                <p class="choice-letter">A</p>
+                <p class="choice-answer" data-number="1">Option 1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-letter">B</p>
+                <p class="choice-answer" data-number="2">Option 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-letter">C</p>
+                <p class="choice-answer" data-number="3">Option 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-letter">D</p>
+                <p class="choice-answer" data-number="4">Option 4</p>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
